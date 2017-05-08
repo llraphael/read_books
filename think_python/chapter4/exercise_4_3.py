@@ -35,10 +35,7 @@ def circle(t, r):
 	Take a turtle and draw a circle with radius r
 	through calling polygon.
 	"""
-	
-	circumference = 2 * math.pi * r
-	n = 100
-	polygon(t, circumference / 100, 100)
+	arc(t, r, 360)
 
 def arc(t, r, angle):
 	"""
